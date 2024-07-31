@@ -7,8 +7,6 @@ def single_root_words(root_word, *other_words):
         a = i.lower()
         if find_root in a:
             same_word.append(i)
-    for i in other_words:
-        a = i.lower()
         if a in find_root:
             same_word.append(i)
     return same_word
